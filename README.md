@@ -1,0 +1,9 @@
+# dotfiles
+
+This is a collection of dotfiles for my personal use.
+
+## Usage
+
+```sh
+stow .
+```
