@@ -98,9 +98,6 @@ fi
 # Initialize modules.
 source ${ZIM_HOME}/init.zsh
 
-# java
-export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
-
 # starship
 eval "$(starship init zsh)"
 
