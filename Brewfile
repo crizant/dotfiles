@@ -1,3 +1,4 @@
+tap "didriksg/tap"
 # Dependency manager for Cocoa projects
 brew "cocoapods"
 # Like neofetch, but much faster because written mostly in C
@@ -20,8 +21,8 @@ brew "starship"
 brew "stow"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
+# Menu bar display manager: DDC brightness, HiDPI, presets, virtual displays
+cask "didriksg/tap/crisp", trusted: true
 cask "font-fira-code-nerd-font"
-# Tool to control external monitor brightness & volume
-cask "monitorcontrol"
 # Smooths scrolling and set mouse scroll directions independently
 cask "mos"
